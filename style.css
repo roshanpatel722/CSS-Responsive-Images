@@ -15,7 +15,7 @@ h1 {
     border-right: 2px solid pink;
     width: 450px;
     text-align: center;
-    box-shadow: 4px 4px 5px #888;
+    box-shadow: 4px 4px 10px #888;
     margin-top: 10px;
 
 }
@@ -23,11 +23,13 @@ h1 {
 img {
     width: 450px;
     height: 300px;
-    margin: 10px;
+    margin: 12px;
+    /* transform-origin: right top; */
     transition: all 0.5s;
 }
 
 img:hover {
+    /* transform: rotate(360deg); */
     transform: scale(1.1);
 }
 
